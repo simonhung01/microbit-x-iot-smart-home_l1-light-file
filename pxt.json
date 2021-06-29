@@ -1,0 +1,26 @@
+{
+    "name": "micro:bit x IoT smart home_L1 light file",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "microIoT": "github:dfrobot/pxt-dfrobot-microiot#v1.1.0",
+        "ds18b20": "github:dfrobot/pxt-ds18b20#v0.1.0",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5",
+        "pxt-DHT11_DHT22": "github:alankrantas/pxt-dht11_dht22#v0.0.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
